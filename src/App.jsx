@@ -1,4 +1,18 @@
-import './App.css';
+import React from 'react';
+import ChatImageRepository from './components/ChatImageRepository';
+
+
+function App() {
+  return (
+    <div className="App">
+      <ChatImageRepository />
+    </div>
+  );
+}
+
+export default App;
+
+/*
 
 function App() {
   return (
@@ -27,3 +41,4 @@ function App() {
 }
 
 export default App;
+*/

@@ -8,4 +8,12 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
   },
+  css: {
+    postcss: {
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer'),
+      ],
+    }
+  }
 })
