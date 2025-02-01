@@ -13,7 +13,7 @@ export default function ChatImageRepository() {
   const chatEndRef = useRef(null);
 
   const scrollToBottom = () => {
-    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    chatEndRef.current?.scrollToBottom({ behavior: 'smooth' });
   };
 
   useEffect(() => {
